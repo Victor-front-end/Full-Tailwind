@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(26, 10, 44) -4.3%, black 60%, black, rgb(59, 48, 73) 101.8%);
+    background-size: cover;
+}
+
+.navitem {
+    text-shadow: 2px 2px 0px black;
+    transition-duration: 0.8s;
+}
+
+.navitem:hover {
+    box-shadow: 1px -1px 20px 5px rgb(255, 255, 255);
+    transition: 0.5s;
+    transition-duration: 0.8s;
+}
+
+.Active {
+    border-radius: 18px;
+    padding: 6px;
+    font-weight: 700;
+}
+
+.item {
+    border-radius: 18px;
+    padding: 6px;
+    transition-duration: 0.5s;
+}
+
+.item:hover {
+    transition-duration: 0.5s;
+    color: white;
+    padding: 6px;
+    transition: 0.5s ease-in-out;
+}
+
+.logo {
+    text-shadow: 2px 2px 0px black;
+}
+
+.imgMec {
+
+    border-radius: 48px;
+    height: 500px;
+    transition-duration: 0.8s;
+    box-shadow: 1px -1px 20px 3px black;
+}
+
+.imgMec:hover {
+    border: none;
+    box-shadow: 1px -1px 20px 5px rgb(255, 255, 255);
+    transition: 0.5s;
+    transition-duration: 0.8s;
+}
+
+.MyName {
+    text-shadow: 2px 4px 0px black;
+    height: 300px;
+}
+
+.Buttom1MiddlePage {
+    box-shadow: 1px -1px 20px 1px rgb(0, 0, 0);
+    transition-duration: 0.5s;
+}
+
+.Buttom2MiddlePage {
+    box-shadow: 1px -1px 20px 1px black;
+    transition-duration: 0.5s;
+}
+
+.Buttom3MiddlePage {
+    box-shadow: 1px -1px 20px 1px black;
+    transition-duration: 0.5s;
+}
+
+.Buttom1MiddlePage:hover {
+    box-shadow: 1px -1px 20px 1px rgb(255, 255, 255);
+    transition: 0.8s ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Buttom2MiddlePage:hover {
+    box-shadow: 1px -1px 20px 1px rgb(255, 255, 255);
+    transition: 0.8s ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.Buttom3MiddlePage:hover {
+    box-shadow: 1px -1px 20px 1px rgb(255, 255, 255);
+    transition: 0.8s ease-in-out;
+    transition-duration: 0.5s;
+}
